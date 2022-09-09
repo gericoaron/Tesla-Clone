@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("/images/model-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+   
+  
+}
+
+.logo{
+    margin-right: 70px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: 80px;
+    margin-left: 40px;
+ 
+   
+}
+
+.leftnav{
+    margin-right: 30px;
+}
+
+.hero{
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    display: block;
+  
+}
+
+.title{
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 45px;
+
+    
+}
+
+.subtitle{
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btnhero{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 304px;
+}
+
+.dcbutton2{
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 550;
+    background-color:#393c41;
+    color: white;
+    padding: 5px 75px;
+    border: none;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    backdrop-filter: blur(8px);
+}
+.dcbutton3{
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color:rgba(244, 244, 244, 0.65);
+    color: rgba(23, 26, 32, 0.8);
+    padding: 5px 66px;
+    border: none;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    backdrop-filter: blur(8px);
+}
